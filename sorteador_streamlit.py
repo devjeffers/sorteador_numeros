@@ -2,7 +2,7 @@ import streamlit as st
 import random
 
 # Título da página
-st.title("🎲 Sorteador de Números Únicos")
+st.title("🎲 Sorteador de Números Únicos de 1 a 150")
 
 # Inicializa os dados na sessão do usuário
 if 'numeros_disponiveis' not in st.session_state:
